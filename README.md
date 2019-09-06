@@ -2,11 +2,9 @@
 
 **Watch and chat with Youtube Gaming's most popular communiites.**
 
-Demo: LINK TO DEMO
+Demo: [https://streamviewer-ui.herokuapp.com](https://streamviewer-ui.herokuapp.com)
 
-Github: LINK TO GITHUB
-
-Prisma Data Viewer: LINK TO PRISMA
+Prisma Data Viewer: [https://app.prisma.io](https://app.prisma.io) - invitation sent to murti@streamlabs.com
 
 ## Overview
 
