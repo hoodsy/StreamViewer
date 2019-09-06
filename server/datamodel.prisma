@@ -1,0 +1,12 @@
+type User {
+  id: ID! @id
+  channelId: String! @unique
+  messages: [Message!]!
+}
+
+type Message {
+  id: ID! @id
+  sender: User @relation(link: INLINE)
+  liveChatId: String!
+  text: String!
+}

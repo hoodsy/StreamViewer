@@ -1,0 +1,23 @@
+type Query {
+  user(channelId: String!): User
+  message(messageId: ID!): Message
+  messagesByUser(userId: ID!): [Message!]!
+}
+
+type Mutation {
+  createUser(channelId: String): User
+  createMessage(channelId: String!, liveChatId: String!, text: String!): Message
+}
+
+type User {
+  id: ID!
+  channelId: String
+  messages: [Message!]!
+}
+
+type Message {
+  id: ID!
+  sender: User
+  liveChatId: String!
+  text: String!
+}

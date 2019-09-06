@@ -1,0 +1,10 @@
+endpoint: https://us1.prisma.sh/logan-bernard-088912/streamviewer-server/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
+
+hooks:
+  post-deploy:
+    - prisma generate
